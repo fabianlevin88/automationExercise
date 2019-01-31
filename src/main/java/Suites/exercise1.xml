@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Automation exercise framework">
+<suite name="Exercise 1">
 
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="height" value="177"></parameter>
@@ -10,11 +10,6 @@
     <test name="Buena salud page">
         <classes>
             <class name="Tests.BuenaSaludTest"></class>
-        </classes>
-    </test>
-    <test name="API test">
-        <classes>
-            <class name="Tests.APITest"></class>
         </classes>
     </test>
 </suite>
